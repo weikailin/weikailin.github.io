@@ -39,10 +39,10 @@ title:                Weikai's Blog
 tagline:              "looking for impractical stuff?"
 permalink:            none
 description:          "this is description"
-baseurl:            #"/Lagrange"
+baseurl:            #"/"
 url:                #"https://lenpaul.github.io"
-# github:
-  # url:                "https://weikailin.github.io"
+github:
+  url:                "https://weikailin.github.io"
 author:
   name:               "Weikai Lin"
   email:              "wklin@cs.cornell.edu"
@@ -53,7 +53,7 @@ author:
   # linkedin:          "lenpaul"
 navigation:
 - title: Home
-  url: /about
+  url: /..
 # - title: Contact
 #   url: /contact
 
