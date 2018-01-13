@@ -3125,3 +3125,8 @@
 			}
 
 	}
+
+
+	section#two, section#two h3 {
+		color: black;
+	}
