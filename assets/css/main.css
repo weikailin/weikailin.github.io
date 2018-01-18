@@ -3126,7 +3126,10 @@
 
 	}
 
-
-	section#two, section#two h3 {
+	/* weikai modifications */
+	section#pubs, section#pubs h3 {
+		color: black;
+	}
+	section#teach, section#teach h3 {
 		color: black;
 	}
