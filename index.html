@@ -12,6 +12,27 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+		<script type="text/x-mathjax-config">
+		/* wklin: customization */
+		MathJax.Hub.Config({
+			tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+		});
+		MathJax.Hub.Config({
+			tex2jax: {
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+			}
+		});
+		MathJax.Hub.Queue(function() {
+			var all = MathJax.Hub.getAllJax(), i;
+			for(i=0; i < all.length; i += 1) {
+				all[i].SourceElement().parentNode.className += ' has-jax';
+			}
+		});
+		</script>
+		<script type="text/javascript" async
+			src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+		</script>
 	</head>
 	<body id="top">
 
@@ -44,6 +65,15 @@
 						<a name="publications"></a>
 						<h2>Publications</h2>
 						<div class="row">
+							<article class="work-item">
+								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
+								<h3>Can We Overcome the $n \log n$ Barrier for Oblivious Sorting?</h3>
+								<p>
+								Wei-Kai Lin, Elaine Shi, Tiancheng Xie.
+								Manuscript.
+								[<a target="_blank" href="https://eprint.iacr.org/2018/227">eprint</a>]
+								</p>
+							</article>
 							<article class="work-item">
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
 								<h3>Cache-Oblivious and Data-Oblivious Sorting and Applications</h3>
