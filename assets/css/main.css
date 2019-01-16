@@ -3127,6 +3127,9 @@
 	}
 
 	/* weikai modifications */
+	section#bio, section#bio h3 {
+		color: black;
+	}
 	section#pubs, section#pubs h3 {
 		color: black;
 	}
