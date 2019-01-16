@@ -3130,7 +3130,7 @@
 	section#bio, section#bio h3 {
 		color: black;
 	}
-	section#pubs, section#pubs h3 {
+	section#pubs, section#pubs h3, section#pubs b {
 		color: black;
 	}
 	section#teach, section#teach h3 {
