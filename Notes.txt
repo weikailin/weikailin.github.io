@@ -1,0 +1,6 @@
+Notes
+=====
+
+* MathJax accepts macros. Just add them at the very beginning of each page.
+* Jekyll-Mermaid is able to draw diagrams with html/markdown using simple syntax.
+
