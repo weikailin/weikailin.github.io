@@ -48,7 +48,7 @@
 			    ["Rafael Pass", "<a href='http://www.cs.cornell.edu/~rafael/'>Rafael Pass</a>"],
 			    ["T-H. Hubert Chan", "<a href='https://www.cs.hku.hk/people/profile.jsp?teacher=hubert'>T-H. Hubert Chan</a>"],
 			    ["Prabhanjan Ananth", "<a href='https://sites.google.com/site/prabhanjanva/home'>Prabhanjan Ananth</a>"],
-			    ["Huijia Lin", "<a href='http://www.cs.ucsb.edu/~rachel.lin/'>Huijia Lin </a>"],
+			    ["Huijia Lin", "<a href='https://homes.cs.washington.edu/~rachel/'>Huijia Lin </a>"],
 			    ["Yu-Chi Chen", "<a href='http://wycchen.github.io/'>Yu-Chi Chen</a>"],
 			    ["Sherman S. M. Chow", "<a href='https://staff.ie.cuhk.edu.hk/~smchow/'>Sherman S. M. Chow</a>"],
 			    ["Russell W. F. Lai", "<a href='https://dblp.org/pers/hd/l/Lai:Russell_W=_F='>Russell W. F. Lai</a>"], // DBLP
@@ -56,15 +56,27 @@
 			    ["Tian-Li Yu", "<a href='http://www.ee.ntu.edu.tw/profile?id=745'>Tian-Li Yu</a>"],
 			    ["Tiancheng Xie", "<a href='https://niconiconi.github.io/en_index.html'>Tiancheng Xie</a>"],
 			    ["Yue Guo", "<a href='http://yueguo.info/'>Yue Guo</a>"],
+			    ["Enoch Peserico", "<a href='https://www.dei.unipd.it/en/persona/890B18724A52FC6348A25908F09AB1B4'>Enoch Peserico</a>"],
 			];
-			confList = 
+			confList =
 			[
-			    ["SODA", "<b style='font-weight: 1000'>SODA</b>"],
+			// may want to implement wildcards later
+			    "SODA 2018",
+			    "SODA 2019",
+			    "TCC 2016-B",
+			    "TCC 2018",
+			    "ITCS 2016",
+			    "ITCS 2020",
+			    "Asiacrypt 2017",
+			    "Eurocrypt 2020",
+			    "GECCO 2009",
+			    "GECCO 2008",
 			];
 			function onloadUpdates()
 			{
 				traverseChildNodes(document.getElementById('pubs'), regexList(authorList));
-				// traverseChildNodes(document.getElementById('pubs'), regexList(confList));
+				traverseChildNodes(document.getElementById('pubs'), regexList(
+					buildConfList(confList, "<span style=\"font-style: italic\">", "</span>")));
 			}
 		</script>
 		<!-- Weikai's text pre-processor -->
@@ -111,11 +123,30 @@
 						<div class="row">
 							<article class="work-item">
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
+								<h3>Oblivious Parallel Tight Compaction</h3>
+								<p>
+								Gilad Asharov, Ilan Komargodski, Wei-Kai Lin, Enoch Peserico, Elaine Shi.
+								Manuscript.
+								[<a target="_blank" href="https://eprint.iacr.org/2020/125">eprint</a>]
+								</p>
+							</article>
+							<article class="work-item">
+								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
 								<h3>OptORAMa: Optimal Oblivious RAM</h3>
 								<p>
-								Gilad Asharov, Ilan Komargodski, Wei-Kai Lin, Kartik Nayak, Elaine Shi.
-								Manuscript.
+								Gilad Asharov, Ilan Komargodski, Wei-Kai Lin, Kartik Nayak, Enoch Peserico, Elaine Shi.
+								To appear in Eurocrypt 2020.
 								[<a target="_blank" href="https://eprint.iacr.org/2018/892">eprint</a>]
+								</p>
+							</article>
+							<article class="work-item">
+								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
+								<h3>MPC for MPC: Secure Computation on a Massively Parallel Computing Architecture</h3>
+								<p>
+								T-H. Hubert Chan, Kai-Min Chung, Wei-Kai Lin, Elaine Shi.
+								ITCS 2020.
+								[<a target="_blank" href="http://dx.doi.org/10.4230/LIPIcs.ITCS.2020.75">DOI</a>]
+								[<a target="_blank" href="otherdocs/[ITCS20]MPCforMPC.pdf">slides</a>]
 								</p>
 							</article>
 							<article class="work-item">

@@ -73,3 +73,18 @@ function wrapMatchesInNode(textNode, matchList) {
     // Remove original text-node:
     textNode.parentNode.removeChild(textNode);
 }
+
+/**********************************************************
+Wrap each string in 'list' with 'begin' and 'end'.
+list: array of strings
+begin: string
+end: string
+**********************************************************/
+function buildConfList(list, begin, end)
+{
+    var out = [];
+    for (var i = 0; i < list.length; i++){
+        out.push([list[i], begin + list[i] + end])
+    }
+    return out;
+}
