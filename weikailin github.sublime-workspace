@@ -1,0 +1,571 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sec",
+				"\\section{}"
+			],
+			[
+				"maths",
+				"\\mathsf"
+			],
+			[
+				"H",
+				"\\Heavy"
+			],
+			[
+				"line",
+				"\\linewidth"
+			],
+			[
+				"eq",
+				"\\eqref"
+			],
+			[
+				"ara",
+				"\\paragraph"
+			],
+			[
+				"sup",
+				"\\supseteq"
+			],
+			[
+				"subs",
+				"\\subseteq"
+			],
+			[
+				"subse",
+				"\\subsection{}"
+			],
+			[
+				"wide",
+				"\\widehat{}"
+			],
+			[
+				"d",
+				"\\dummy"
+			],
+			[
+				"ri",
+				"\\right"
+			],
+			[
+				"Cell",
+				"\\CellsWritten"
+			],
+			[
+				"Ce",
+				"\\CellsRead"
+			],
+			[
+				"C",
+				"\\CellsRead"
+			],
+			[
+				"Re",
+				"\\Read"
+			],
+			[
+				"set",
+				"\\setminus"
+			],
+			[
+				"med",
+				"\\medskip"
+			],
+			[
+				"Micr",
+				"\\MicroDummyIdx"
+			],
+			[
+				"shotr",
+				"\\shortHT"
+			],
+			[
+				"sma",
+				"\\smallOPRAM"
+			],
+			[
+				"w",
+				"\\weikai"
+			],
+			[
+				"in",
+				"\\input"
+			],
+			[
+				"short",
+				"\\shortHT"
+			],
+			[
+				"sho",
+				"\\shortHT"
+			],
+			[
+				"fra",
+				"\\frac{}{}"
+			],
+			[
+				"long",
+				"\\longHT"
+			],
+			[
+				"log",
+				"\\longHT"
+			],
+			[
+				"S",
+				"\\ShortHT"
+			],
+			[
+				"foot",
+				"\\footnote"
+			],
+			[
+				"la",
+				"\\label"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				],
+				[
+					"Packages/User/MakeWD.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gqs",
+				"git: quick stage"
+			],
+			[
+				"git bl",
+				"git: blame current file"
+			],
+			[
+				"diff",
+				"Diffy Compare"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/wklin/Repos/weikailin.github.io"
+	],
+	"file_history":
+	[
+		"/C/Users/wklin/Repos/oram-blocksize/macro.tex",
+		"/C/Users/wklin/Repos/oram-blocksize/compress.tex",
+		"/C/Users/wklin/Repos/oram-blocksize/multiserver.tex",
+		"/C/Users/wklin/Repos/oram-blocksize/intro.tex",
+		"/C/Users/wklin/Repos/oram-blocksize/tree-struct.tex",
+		"/C/Users/wklin/Repos/oram-blocksize/prelim.tex",
+		"/C/Users/wklin/Repos/oram-blocksize/main-oram-blocksize.tex",
+		"/C/Users/wklin/Repos/oram-blocksize/oram-blocksize.bib",
+		"/C/Users/wklin/Repos/oram-blocksize/main-oram-blocksize.bbl",
+		"/C/Users/wklin/Repos/oram-blocksize/notes.tex",
+		"/C/Users/wklin/Repos/oram-blocksize/note-compress.tex",
+		"/C/Users/wklin/Repos/hieropramrevisit/asiacrypt2017-FullVersion/hash.tex",
+		"/C/Users/wklin/Repos/oram-blocksize/note-oldcompress.tex",
+		"/C/Users/wklin/Downloads/10.1007_978-3-030-36033-7_10.bib",
+		"/C/Users/wklin/Repos/oram-blocksize/opram.bib",
+		"/C/Users/wklin/Repos/oram-blocksize/.gitignore",
+		"/C/Users/wklin/Repos/optimuspram/ShortHT.tex",
+		"/C/Users/wklin/Repos/optimuspram/LongHT.tex",
+		"/C/Users/wklin/Repos/optimuspram/BuildingBlocks.tex",
+		"/C/Users/wklin/Repos/optimuspram/defn.tex",
+		"/C/Users/wklin/Repos/optimuspram/MediumHT.tex",
+		"/C/Users/wklin/Repos/optimuspram/Techniques.tex",
+		"/C/Users/wklin/Repos/optimuspram/lowerbound.tex",
+		"/C/Users/wklin/Repos/optimuspram/OPRAMConstruction.tex",
+		"/C/Users/wklin/Repos/optimuspram/main-opram.tex",
+		"/C/Users/wklin/Repos/optimuspram/main-opram.bbl",
+		"/C/Users/wklin/Repos/optimuspram/old_grabdummy.tex",
+		"/C/Users/wklin/Repos/optimuspram/opram.bib",
+		"/C/Users/wklin/Repos/compaction-circuit/focs2020/compaction-circuit.bbl",
+		"/C/Users/wklin/Repos/compaction-circuit/focs2020/intro-new.tex",
+		"/C/Users/wklin/Documents/FubonAccount/StockTransactions/Decrypt.java",
+		"/C/Users/wklin/Repos/optimuspram/Crypto20_Submission/Body.tex",
+		"/C/Users/wklin/Repos/optimuspram/Crypto20_Submission/main-opram.tex",
+		"/C/Users/wklin/Repos/optimuspram/binomial.tex",
+		"/C/Users/wklin/Repos/optimuspram/Crypto20_Submission/Introduction.tex",
+		"/C/Users/wklin/Repos/optimuspram/Crypto20_Submission/Techniques.tex",
+		"/C/Users/wklin/Repos/optimuspram/Crypto20_Submission/opram.bib",
+		"/C/Users/wklin/Repos/optimuspram/Crypto20_Submission/BuildingBlocks.tex",
+		"/C/Users/wklin/AppData/Roaming/Sublime Text 3/Packages/User/SBSCompare.sublime-settings",
+		"/C/Users/wklin/AppData/Roaming/Sublime Text 3/Packages/Compare Side-By-Side/SBSCompare.sublime-settings",
+		"/C/Users/wklin/Downloads/002001909500119W.bib",
+		"/C/Users/wklin/Repos/optimuspram/HTFunctionality.tex",
+		"/c/texlive/2019/texmf-dist/tex/latex/mdframed/mdframed.sty",
+		"/C/Users/wklin/Repos/compopram/compopram.tex",
+		"/C/Users/wklin/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/C/Users/wklin/Repos/compopram/prelim.tex",
+		"/C/Users/wklin/AppData/Roaming/Sublime Text 3/Packages/LaTeXYZ/README.md",
+		"/C/Users/wklin/AppData/Roaming/Sublime Text 3/Packages/PackageSync/PackageSync.sublime-settings",
+		"/C/Users/wklin/AppData/Roaming/Sublime Text 3/Packages/User/PackageSync.sublime-settings"
+	],
+	"find":
+	{
+		"height": 39.3333333333
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"many",
+			"Larsen",
+			"256",
+			"Blocks",
+			"accesses",
+			"blocks accessed",
+			"Blocks",
+			"^\\chi",
+			"16",
+			"enumerate",
+			"big",
+			"dummy",
+			"dumm",
+			"seq",
+			"equation",
+			"\\abs",
+			"align",
+			"l",
+			"align",
+			"Read",
+			", ",
+			"x_",
+			"Write",
+			"~~",
+			", ",
+			"$",
+			"calD",
+			"claim",
+			"Cells",
+			"g(",
+			"itemize",
+			"myprocedu",
+			"itemize",
+			"MyProcedure",
+			"theoremstyle",
+			"MyProcedureCap",
+			"?\n",
+			"CellContent",
+			"stp:",
+			"equation",
+			"\\Good",
+			"_x",
+			"claime",
+			"claim",
+			"Cell",
+			"access",
+			"(t,i)",
+			"}$",
+			"(t,i)",
+			"array",
+			"enumerate",
+			"\\val",
+			"Demain",
+			"touch",
+			"\\Write",
+			"itemize",
+			" \n",
+			"enumerate",
+			"itemize",
+			"write",
+			"oram-blocksize",
+			"\\bf W",
+			"Farhadi",
+			"dummy_region",
+			"wait",
+			"mod",
+			"OBin",
+			"Tsai",
+			"\\footnote",
+			"Memory",
+			"$\\Lookup$s on $\\ShortHT$",
+			"\\wei",
+			"packed",
+			"cdot",
+			"logarithmic",
+			"pagestyle",
+			"plain",
+			"Recall that the opt",
+			"Nayak",
+			"item",
+			"align",
+			"--",
+			"gamma",
+			"Theorem",
+			"theorem",
+			"lem:non",
+			"theorem",
+			"Bast",
+			"latexmk"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 292.0
+	},
+	"output.show_commit_info":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "",
+	"project": "weikailin github.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"bib",
+				"oram-blocksize.bib"
+			],
+			[
+				"ma",
+				"macro.tex"
+			],
+			[
+				"com",
+				"compress.tex"
+			],
+			[
+				"tree",
+				"tree-struct.tex"
+			],
+			[
+				"macro",
+				"macro.tex"
+			],
+			[
+				"main- tex",
+				"Crypto20_Submission\\main-opram.tex"
+			],
+			[
+				"opram bib",
+				"Crypto20_Submission\\opram.bib"
+			],
+			[
+				"opram",
+				"opram.bib"
+			],
+			[
+				"tech",
+				"Techniques.tex"
+			],
+			[
+				"body",
+				"Crypto20_Submission\\Body.tex"
+			],
+			[
+				"Te",
+				"Techniques.tex"
+			],
+			[
+				"Tec",
+				"Techniques.tex"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\wklin\\Repos\\optorama\\optorama.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
