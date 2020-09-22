@@ -131,6 +131,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 32407,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"build_system_choices":
@@ -245,6 +254,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/wklin/Downloads/10.1007_978-3-030-45724-2_14.bib",
 		"/C/Users/wklin/Repos/oram-blocksize/macro.tex",
 		"/C/Users/wklin/Repos/oram-blocksize/compress.tex",
 		"/C/Users/wklin/Repos/oram-blocksize/multiserver.tex",
@@ -297,7 +307,7 @@
 	],
 	"find":
 	{
-		"height": 39.3333333333
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -417,8 +427,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 32407,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3116,
+								3116
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\wklin\\Repos\\weikailin.github.io",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 834.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -473,7 +514,7 @@
 	"project": "weikailin github.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
