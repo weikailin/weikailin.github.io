@@ -81,6 +81,45 @@
 			}
 		</script>
 		<!-- Weikai's text pre-processor -->
+		<style type="text/css">
+			 /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+	  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+#close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#close:hover,
+#close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} 
+		</style>
 
 	</head>
 	<body id="top" onload="onloadUpdates()">
@@ -150,6 +189,23 @@
 								[<a target="_blank" href="https://eprint.iacr.org/2020/125">eprint</a>]
 								[<a target="_blank" href="https://youtu.be/rQ1RM7SCZb4">video (25 min)</a>]
 								[<a target="_blank" href="https://youtu.be/T9gfpQzKCf4?t=1920">video (short)</a>]
+								[<a href='javascript:showModalBox("
+@InProceedings{asharov_et_al:LIPIcs:2020:12116,\n
+  author =	{Gilad Asharov and Ilan Komargodski and Wei-Kai Lin and Enoch Peserico and Elaine Shi},\n
+  title =	{{Oblivious Parallel Tight Compaction}},\n
+  booktitle =	{1st Conference on Information-Theoretic Cryptography (ITC 2020)},\n
+  pages =	{11:1--11:23},\n
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},\n
+  ISBN =	{978-3-95977-151-1},\n
+  ISSN =	{1868-8969},\n
+  year =	{2020},\n
+  volume =	{163},\n
+  editor =	{Yael Tauman Kalai and Adam D. Smith and Daniel Wichs},\n
+  publisher =	{Schloss Dagstuhl--Leibniz-Zentrum f{\\\"u}r Informatik},\n
+  address =	{Dagstuhl, Germany},\n
+  annote =	{Keywords: Oblivious tight compaction, parallel oblivious RAM, EREW PRAM}\n
+}
+								")'>Bibtex</a>]
 								</p>
 							</article>
 							<article class="work-item">
@@ -283,6 +339,74 @@
 							<li><a href="#" class="button">Full Portfolio</a></li>
 						</ul> -->
 					</section>
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span id="close">&times;</span>
+    <!-- <p id="bibtex-content"> -->
+<pre id="bibtex-content">
+@InProceedings{asharov_et_al:LIPIcs:2020:12116,
+  author =	{Gilad Asharov and Ilan Komargodski and Wei-Kai Lin and Enoch Peserico and Elaine Shi},
+  title =	{{Oblivious Parallel Tight Compaction}},
+  booktitle =	{1st Conference on Information-Theoretic Cryptography (ITC 2020)},
+  pages =	{11:1--11:23},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN =	{978-3-95977-151-1},
+  ISSN =	{1868-8969},
+  year =	{2020},
+  volume =	{163},
+  editor =	{Yael Tauman Kalai and Adam D. Smith and Daniel Wichs},
+  publisher =	{Schloss Dagstuhl--Leibniz-Zentrum f{\"u}r Informatik},
+  address =	{Dagstuhl, Germany},
+  URL =		{https://drops.dagstuhl.de/opus/volltexte/2020/12116},
+  URN =		{urn:nbn:de:0030-drops-121164},
+  doi =		{10.4230/LIPIcs.ITC.2020.11},
+  annote =	{Keywords: Oblivious tight compaction, parallel oblivious RAM, EREW PRAM}
+}
+</pre>
+    <!-- </p> -->
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+// var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementById("close");
+
+// When the user clicks the button, open the modal 
+// btn.onclick = function() {
+//   modal.style.display = "block";
+// }
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+function showModalBox(sBibtex){
+  modal.style.display = "block";
+	var pre = document.getElementById("bibtex-content");
+	pre.textContent = sBibtex;
+}
+</script>
+
+
 
 				<!-- Three - teach -->
 					<section id="teach">

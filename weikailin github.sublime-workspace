@@ -135,7 +135,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 32407,
+				"buffer_size": 32806,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -215,6 +215,10 @@
 			[
 				"gqs",
 				"git: quick stage"
+			],
+			[
+				"git diff",
+				"git: diff"
 			],
 			[
 				"git bl",
@@ -307,7 +311,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -436,15 +440,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 32407,
+						"buffer_size": 32806,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3116,
-								3116
+								5613,
+								5613
 							]
 						],
 						"settings":
@@ -454,7 +458,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 834.0,
+						"translation.y": 2226.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -582,7 +586,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\wklin\\Repos\\optorama\\optorama.sublime-project"
+				"C:\\Users\\wklin\\Repos\\betterperfectoram\\tcc2019\\betterperfectoram.sublime-project"
 			]
 		],
 		"width": 380.0
