@@ -81,8 +81,9 @@
 			}
 		</script>
 		<!-- Weikai's text pre-processor -->
-		<style type="text/css">
-			 /* The Modal (background) */
+<style type="text/css">
+/* TODO: cleanup */
+/* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -124,7 +125,7 @@
   font-size: 10pt;
   line-height: normal;
 }
-		</style>
+</style>
 
 	</head>
 	<body id="top" onload="onloadUpdates()">
@@ -166,6 +167,15 @@
 						<a name="publications"></a>
 						<h2>Publications</h2>
 						<div class="row">
+							<article class="work-item">
+								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
+								<h3>Sorting Short Keys in Circuits of Size $o(n \log n)$</h3>
+								<p>
+								Gilad Asharov, Wei-Kai Lin, Elaine Shi.
+								To appear in SODA 2021.
+								[<a href="https://arxiv.org/abs/2010.09884v2">arXiv</a>]
+								</p>
+							</article>
 							<article class="work-item">
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
 								<h3>Lower Bound for Oblivious RAM with Large Cells</h3>
@@ -222,6 +232,19 @@
 								[<a target="_blank" href="https://doi.org/10.1007/978-3-030-45724-2_14">DOI</a>]
 								[<a target="_blank" href="https://eprint.iacr.org/2018/892">eprint</a>]
 								[<a target="_blank" href="https://youtu.be/mUVGFxEJ-tg">video (Gilad)</a>]
+								[<a href='javascript:showModalBox("
+@InProceedings{10.1007/978-3-030-45724-2_14,\n
+  author=\"Asharov, Gilad and Komargodski, Ilan and Lin, Wei-Kai and Nayak, Kartik and Peserico, Enoch and Shi, Elaine\",\n
+  editor=\"Canteaut, Anne and Ishai, Yuval\",\n
+  title=\"OptORAMa: Optimal Oblivious RAM\",\n
+  booktitle=\"Advances in Cryptology -- EUROCRYPT 2020\",\n
+  year=\"2020\",\n
+  publisher=\"Springer International Publishing\",\n
+  address=\"Cham\",\n
+  pages=\"403--432\",\n
+  isbn=\"978-3-030-45724-2\"\n
+}
+								")'>Bibtex</a>]
 								</p>
 							</article>
 							<article class="work-item">
@@ -346,6 +369,7 @@
 					</section>
 
 
+<!-- TODO: cleanup -->
 <!-- The Modal -->
 <div id="myModal" class="modal">
 
@@ -362,6 +386,7 @@ bibtex content here
 </div>
 
 <script>
+// TODO: cleanup
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -393,8 +418,6 @@ function showModalBox(sBibtex){
 	pre.textContent = sBibtex;
 }
 </script>
-
-
 
 				<!-- Three - teach -->
 					<section id="teach">
