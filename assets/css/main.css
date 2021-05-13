@@ -2442,6 +2442,7 @@
 /* Work Item */
 
 	.work-item {
+		float: none;
 		margin: 0 0 2em 0;
 	}
 
