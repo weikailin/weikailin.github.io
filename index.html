@@ -91,15 +91,25 @@
 		</script>
 		<script type="text/javascript">
 		<!--
-	    function toggle_visibility_child(target) {
-	    	// alert(target.id+target.firstElementChild);
-
-	       var e = target.firstElementChild;
-	       if(e.style.display == 'block')
-	          e.style.display = 'none';
-	       else
-	          e.style.display = 'block';
-	    	// toggle_visibility(target.firstElementChild);
+			// toggle_init();
+	    // function toggle_init() {	
+		  // 	var listTldr=document.getElementsByClassName('pub-tldr');
+	    // 	alert(listTldr.length);
+		  // 	for (i = 0; i < listTldr.length; i++)
+	    // 		toggle_visibility(listTldr[i]);
+	    // }
+	    function toggle_tldr(trigger) {
+				var e = trigger.parentElement.nextElementSibling;
+	    	// console.log(e.className);
+	    	if(e.className.indexOf('pub-tldr') > -1){
+	    		toggle_visibility(e);
+	    	}
+	    }
+	    function toggle_visibility(e) {
+				if(e.style.display == 'block')
+				  e.style.display = 'none';
+				else
+				  e.style.display = 'block';
 	    }
 		//-->
 		</script>
@@ -113,6 +123,12 @@
 	margin-right:0.5em;
 	font-weight: bold; 
 	font-family: serif;
+}
+.pub-tldr{;
+	display: none;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background-color: #f7f7e9;
 }
 /* The Modal (background) */
 .modal {
@@ -235,7 +251,14 @@
 								Wei-Kai Lin, Ethan Mook, Daniel Wichs.
 								Manuscript.
 								[<a href="https://eprint.iacr.org/2022/1703">eprint</a>]
+								<!-- <a href="javascript:" onclick="toggle_tldr(this)">more...</a> -->
 								</p>
+								<!-- <p class="pub-tldr"> -->
+								<!-- <em>Problem</em>: Consider the computation on a large public database of size $n$, say searching the index of the whole internet on Google. Can we privately search the internet but also ensure Google learns nothing about our query? We want to minimize the cost on Google and users while achieving privacy. The feasibility of this problem is proposed by Beimel, Ishai, and Malkin in 2000. -->
+								<!-- Ideally, we want privacy without extra cost: that is, Google takes time and space comparable to the insecure searching, and each user just sends and receives the query and result. -->
+								<!-- <br> -->
+								<!-- <em>Result</em>: We show the feasibility assuming the hardness of Ring Learning-With-Errors (Ring LWE), which is a standard assumption adopted by NIST post-quantum encryptions. The cost is $n^\epsilon$ on the server space and $poly \log n$ on query time (multiplicatively) for any constant $\epsilon$. Our result is an exciting breakthrough due to the strengthened functionality and the minimal assumption. -->
+								<!-- </p> -->
 							</article>
 							<article class="work-item">
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
@@ -254,7 +277,6 @@
 								Andrew Park, Wei-Kai Lin, Elaine Shi.
 								Manuscript.
 								[<a href="https://eprint.iacr.org/2022/191">eprint</a>]
-								<!-- [<a onclick="toggle_visibility_child(this)">TLDR<span>test haha</span></a>] -->
 								</p>
 							</article>
 							<article class="work-item">
