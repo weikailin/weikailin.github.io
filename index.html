@@ -85,13 +85,35 @@
 			function onloadUpdates()
 			{
 				traverseChildNodes(document.getElementById('pubs'), regexList(authorList));
-				traverseChildNodes(document.getElementById('pubs'), regexList(
-					buildConfList(confList, "<span style=\"font-style: italic\">", "</span>")));
+				// traverseChildNodes(document.getElementById('pubs'), regexList(
+				// 	buildConfList(confList, "<span style=\"font-weight: bold; font-family: serif; \">", "</span>")));
 			}
 		</script>
+		<script type="text/javascript">
+		<!--
+	    function toggle_visibility_child(target) {
+	    	// alert(target.id+target.firstElementChild);
+
+	       var e = target.firstElementChild;
+	       if(e.style.display == 'block')
+	          e.style.display = 'none';
+	       else
+	          e.style.display = 'block';
+	    	// toggle_visibility(target.firstElementChild);
+	    }
+		//-->
+		</script>
+
 		<!-- Weikai's text pre-processor -->
 <style type="text/css">
 /* TODO: cleanup */
+#pubs .conf{
+	float: left; 
+	width:7em;
+	margin-right:0.5em;
+	font-weight: bold; 
+	font-family: serif;
+}
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -103,7 +125,7 @@
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
-	  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
@@ -232,6 +254,7 @@
 								Andrew Park, Wei-Kai Lin, Elaine Shi.
 								Manuscript.
 								[<a href="https://eprint.iacr.org/2022/191">eprint</a>]
+								<!-- [<a onclick="toggle_visibility_child(this)">TLDR<span>test haha</span></a>] -->
 								</p>
 							</article>
 							<article class="work-item">
@@ -239,7 +262,7 @@
 								<h3>Optimal Sorting Circuits for Short Keys</h3>
 								<p>
 								Wei-Kai Lin, Elaine Shi.
-								SODA 2022.
+								<span class="conf">SODA 2022.</span>
 								[<a href="https://arxiv.org/abs/2102.11489">arXiv</a>]
 								[<a href="otherdocs/[SODA22] optimal sorting circuits.pdf">slides</a>]
 								[<a href="https://www.youtube.com/watch?v=QQqL-njWSBg">practice talk</a>]
@@ -249,8 +272,8 @@
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
 								<h3>Optimal Oblivious Parallel RAM</h3>
 								<p>
+								<span class="conf">SODA 2022.</span>
 								Gilad Asharov, Ilan Komargodski, Wei-Kai Lin, Enoch Peserico, Elaine Shi.
-								SODA 2022.
 								[<a href="https://eprint.iacr.org/2020/1292">eprint</a>]
 								[<a href="otherdocs/[SODA22] optimal opram.pdf">slides</a>]
 								[<a href="https://www.youtube.com/watch?v=frTdXub6SC0">practice talk</a>]
@@ -260,8 +283,8 @@
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
 								<h3>A Logarithmic Lower Bound for Oblivious RAM (for all parameters)</h3>
 								<p>
+								<span class="conf">Crypto 2021.</span>
 								Ilan Komargodski, Wei-Kai Lin.
-								Crypto 2021.
 								[<a href="https://eprint.iacr.org/2020/1132.pdf">eprint</a>]
 								[<a href="https://link.springer.com/chapter/10.1007/978-3-030-84259-8_20">Springer</a>]
 								[<a href="https://www.youtube.com/watch?v=4XdOEQcRIBc">video</a>]
@@ -272,8 +295,8 @@
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
 								<h3>Oblivious RAM with Worst-Case Logarithmic Overhead</h3>
 								<p>
+								<span class="conf">Crypto 2021.</span>
 								Gilad Asharov, Ilan Komargodski, Wei-Kai Lin, Elaine Shi.
-								Crypto 2021.
 								[<a href="https://eprint.iacr.org/2021/1123.pdf">eprint</a>]
 								[<a href="https://link.springer.com/chapter/10.1007/978-3-030-84259-8_21">Springer</a>]
 								</p>
@@ -282,8 +305,8 @@
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
 								<h3>Perfectly Oblivious (Parallel) RAM Revisited, and Improved Constructions</h3>
 								<p>
+								<span class="conf">ITC 2021.</span>
 								T-H. Hubert Chan, Elaine Shi, Wei-Kai Lin, Kartik Nayak.
-								ITC 2021.
 								[<a href="https://eprint.iacr.org/2020/604">eprint</a>]
 								[<a href="https://drops.dagstuhl.de/opus/volltexte/2021/14327/">DROPS</a>]
 								[<a href="https://www.youtube.com/watch?v=CLuKetcP1rk">video</a>]
@@ -293,8 +316,8 @@
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
 								<h3>Sorting Short Keys in Circuits of Size $o(n \log n)$</h3>
 								<p>
+								<span class="conf">SODA 2021, SICOMP 2022.</span>
 								Gilad Asharov, Wei-Kai Lin, Elaine Shi.
-								SODA 2021, SICOMP 2022.
 								[<a href="https://arxiv.org/abs/2010.09884">arXiv</a>]
 								[<a href="https://epubs.siam.org/doi/10.1137/1.9781611976465.134">SODA</a>]
 								[<a href="https://doi.org/10.1137/20M1380983">SICOMP</a>]
@@ -304,8 +327,8 @@
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
 								<h3>Oblivious Parallel Tight Compaction</h3>
 								<p>
+								<span class="conf">ITC 2020.</span>
 								Gilad Asharov, Ilan Komargodski, Wei-Kai Lin, Enoch Peserico, Elaine Shi.
-								ITC 2020.
 								[<a href="https://drops.dagstuhl.de/opus/volltexte/2020/12116/">DROPS</a>]
 								[<a href="https://eprint.iacr.org/2020/125">eprint</a>]
 								[<a href="https://youtu.be/rQ1RM7SCZb4">video (25 min)</a>]
@@ -333,8 +356,8 @@
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
 								<h3>OptORAMa: Optimal Oblivious RAM</h3>
 								<p>
+								<span class="conf">Eurocrypt 2020, JACM 2022.</span>
 								Gilad Asharov, Ilan Komargodski, Wei-Kai Lin, Kartik Nayak, Enoch Peserico, Elaine Shi.
-								Eurocrypt 2020. JACM 2022.
 								[<a href="https://doi.org/10.1007/978-3-030-45724-2_14">DOI</a>]
 								[<a href="https://dl.acm.org/doi/10.1145/3566049">JACM</a>]
 								[<a href="https://eprint.iacr.org/2018/892">eprint</a>]
@@ -358,8 +381,8 @@
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
 								<h3>MPC for MPC: Secure Computation on a Massively Parallel Computing Architecture</h3>
 								<p>
+								<span class="conf">ITCS 2020.</span>
 								T-H. Hubert Chan, Kai-Min Chung, Wei-Kai Lin, Elaine Shi.
-								ITCS 2020.
 								[<a href="http://dx.doi.org/10.4230/LIPIcs.ITCS.2020.75">DOI</a>]
 								[<a href="https://eprint.iacr.org/2020/240">eprint</a>]
 								[<a href="otherdocs/[ITCS20]MPCforMPC.pdf">slides</a>]
@@ -369,8 +392,8 @@
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
 								<h3>Can We Overcome the $n \log n$ Barrier for Oblivious Sorting?</h3>
 								<p>
+								<span class="conf">SODA 2019.</span>
 								Wei-Kai Lin, Elaine Shi, Tiancheng Xie.
-								SODA 2019.
 								[<a href="https://doi.org/10.1137/1.9781611975482.148">DOI</a>]
 								[<a href="https://eprint.iacr.org/2018/227">eprint</a>]
 								</p>
@@ -379,8 +402,8 @@
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
 								<h3>Game Theoretic Notions of Fairness in Multi-Party Coin Toss</h3>
 								<p>
+								<span class="conf">TCC 2018.</span>
 								Kai-Min Chung, Yue Guo, Wei-Kai Lin, Rafael Pass, Elaine Shi. 
-								TCC 2018.
 								[<a href="https://doi.org/10.1007/978-3-030-03807-6_21">DOI</a>]
 								[<a href="https://eprint.iacr.org/2018/1076">eprint</a>]
 								[<a href="otherdocs/[TCC18]Game Theoretic Notions of Fairness in Multi-Party Coin.pdf">slides</a>]
@@ -390,8 +413,8 @@
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
 								<h3>Cache-Oblivious and Data-Oblivious Sorting and Applications</h3>
 								<p>
+								<span class="conf">SODA 2018.</span>
 								T-H. Hubert Chan, Yue Guo, Wei-Kai Lin, Elaine Shi.
-								SODA 2018.
 								[<a href="https://doi.org/10.1137/1.9781611975031.143">DOI</a>]
 								[<a href="https://eprint.iacr.org/2017/914">eprint</a>]
 								[<a href="otherdocs/[SODA18]CacheOblivSort.pdf">slides</a>]
@@ -401,8 +424,8 @@
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
 								<h3>Oblivious Hashing Revisited, and Applications to Asymptotically Efficient ORAM and OPRAM</h3>
 								<p>
+								<span class="conf">Asiacrypt 2017.</span>
 								T-H. Hubert Chan, Yue Guo, Wei-Kai Lin, Elaine Shi.
-								Asiacrypt 2017.
 								[<a href="https://doi.org/10.1007/978-3-319-70694-8_23">DOI</a>]
 								[<a href="https://eprint.iacr.org/2017/924">eprint</a>]
 								[<a href="otherdocs/[Asiacrypt17]HierarchicalORAM.pdf">slides</a>]
@@ -412,8 +435,8 @@
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
 								<h3>Delegating RAM Computations with Adaptive Soundness and Privacy</h3>
 								<p>
+								<span class="conf">TCC 2016-B.</span>
 								Prabhanjan Ananth, Yu-Chi Chen, Kai-Min Chung, Huijia Lin and Wei-Kai Lin.
-								TCC 2016-B.
 								[<a href="https://doi.org/10.1007/978-3-662-53644-5_1">DOI</a>]
 								[<a href="https://eprint.iacr.org/2015/1082">eprint</a>]
 								</p>
@@ -422,8 +445,8 @@
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
 								<h3>Cryptography for Parallel RAM from Indistinguishability Obfuscation</h3>
 								<p>
+								<span class="conf">ITCS 2016.</span>
 								Yu-Chi Chen, Sherman S. M. Chow, Kai-Min Chung, Russell W. F. Lai, Wei-Kai Lin, and Hong-Sheng Zhou.
-								ITCS 2016.
 								[<a href="http://doi.acm.org/10.1145/2840728.2840769">DOI</a>]
 								[<a href="https://eprint.iacr.org/2015/406">eprint</a>]
 								</p>
@@ -432,8 +455,8 @@
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
 								<h3>Co-evolvability of Games in Coevolutionary Genetic Algorithms</h3>
 								<p>
+								<span class="conf">GECCO 2009.</span>
 								Wei-Kai Lin and Tian-Li Yu.
-								GECCO 2009.
 								[<a href="http://doi.acm.org/10.1145/1569901.1570208">DOI</a>]
 								</p>
 							</article>
@@ -441,8 +464,8 @@
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
 								<h3>Optimal Sampling of Genetic Algorithms on Polynomial Regression</h3>
 								<p>
+								<span class="conf">GECCO 2008.</span>
 								Tian-Li Yu and Wei-Kai Lin.
-								GECCO 2008.
 								[<a href="http://doi.acm.org/10.1145/1389095.1389294">DOI</a>]
 								</p>
 							</article>
