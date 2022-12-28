@@ -239,12 +239,15 @@ a.pub-btn{
 								[<a href="https://eprint.iacr.org/2022/1703">eprint</a>]
 								<a class="pub-btn" onclick="toggle_tldr(this)">[ + ]</a>
 								</p>
-								<p class="pub-tldr">
-								<em>Problem</em>: Consider the computation on a large public database of size $n$, say searching the index of the whole internet on Google. Can we privately search the internet but also ensure Google learns nothing about our query? We want to minimize the cost on Google and users while achieving privacy. The feasibility of this problem is proposed by Beimel, Ishai, and Malkin in 2000.
-								Ideally, we want privacy without extra cost: that is, Google takes time and space comparable to the insecure searching, and each user just sends and receives the query and result.
-								<br>
-								<em>Result</em>: We show the feasibility assuming the hardness of Ring Learning-With-Errors (Ring LWE), which is a standard assumption adopted by NIST post-quantum encryption. The cost is $n^\epsilon$ on the server space and $poly \log n$ on query time (multiplicatively) for any constant $\epsilon$. Our result is an exciting breakthrough due to the strengthened functionality and the minimal assumption.
-								</p>
+								<div class="pub-tldr">
+									<p><em>Problem</em>: 
+									Consider the computation on a large public database of size $n$, say searching the index of the whole internet on Google. Can we privately search the internet but also ensure Google learns nothing about our query? We want to minimize the cost on Google and users while achieving privacy. The feasibility of this problem is proposed by Beimel, Ishai, and Malkin in 2000.
+									Ideally, we want privacy without extra cost: that is, Google takes time and space comparable to the insecure searching, and each user just sends and receives the query and result.
+									</p>
+									<p><em>Result</em>: 
+									We show the feasibility assuming the hardness of Ring Learning-With-Errors (Ring LWE), which is a standard assumption adopted by NIST post-quantum encryption. The cost is $n^\epsilon$ on the server space and $poly \log n$ on query time (multiplicatively) for any constant $\epsilon$. Our result is an exciting breakthrough due to the strengthened functionality and the minimal assumption.
+									</p>
+								</div>
 							</article>
 							<article class="work-item">
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
@@ -256,13 +259,12 @@ a.pub-btn{
 								[<a href="https://mit.zoom.us/rec/play/Hjj51n-IbxhrPyeGUxSy3Hvy1BE__JhS2GCp56i1On57Unel0EXnwz8xug8zdBEGp4AD5BDRzPXvgACe.pv5u86AHjNDANfsy?continueMode=true&_x_zm_rtaid=kHXXWEZBT82hq1sNpdH2kg.1670950615953.f2c1541cece88beef4a67620320cb030&_x_zm_rhtaid=50">video (Charles River Crypto Day)</a>]
 								<a class="pub-btn" onclick="toggle_tldr(this)">[ + ]</a>
 								</p>
-								<p class="pub-tldr">
-								<em>Problem</em>: 
-								We consider the offline-online setting of single-server PIR: in the offline phase, a client subscribes to the server and obtains a secret summary of the public database, and then in the online phase, the client queries a location in the database. We want to esure that the location is hidden from the server while the space, time, and communication are all small/short.
-								<br>
-								<em>Result</em>: 
-								Our scheme achieves $\widetilde O(\sqrt{n})$ in client space and server time but also $\widetilde O(1)$ communication, where the space is persistent for unbounded queries, the time and communication are per-query, $n$ is the size of the database, and $\widetilde O$ hides factors in $\log n$ and the security parameter. Our result is optimal up to logarithmic factors by the previous space-time tradeoff.
-								</p>
+								<div class="pub-tldr">
+									<p><em>Problem</em>: We consider the offline-online setting of single-server PIR: in the offline phase, a client subscribes to the server and obtains a secret summary of the public database, and then in the online phase, the client queries a location in the database. We want to esure that the location is hidden from the server while the space, time, and communication are all small/short.
+									</p>
+									<p><em>Result</em>: Our scheme achieves $\widetilde O(\sqrt{n})$ in client space and server time but also $\widetilde O(1)$ communication, where the space is persistent for unbounded queries, the time and communication are per-query, $n$ is the size of the database, and $\widetilde O$ hides factors in $\log n$ and the security parameter. Our result is optimal up to logarithmic factors by the previous space-time tradeoff.
+									</p>
+								</div>
 							</article>
 							<article class="work-item">
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
@@ -273,13 +275,14 @@ a.pub-btn{
 								[<a href="https://eprint.iacr.org/2022/191">eprint</a>]
 								<a class="pub-btn" onclick="toggle_tldr(this)">[ + ]</a>
 								</p>
-								<p class="pub-tldr">
-								<em>Problem</em>: 
-								Garbled RAM (GRAM) schemes transform a pair of RAM program and input into an unintelligent garbling so that any adversary may evaluate the garbling and obtain the correct output but nothing else (about the program or the input). The goal of GRAM is to minimize the evaluation time (that is, without converting the program into huge circuits).
-								<br>
-								<em>Result</em>: 
-								We construct a better and more practical GRAM scheme. It achieves $\widetilde O(\log n)$ blowup in garbling and evaluation time, where $n$ is the memory size of the RAM program, and $\widetilde O$ hides $poly \log\log n$ and the security parameter.
-								</p>
+								<div class="pub-tldr">
+									<p><em>Problem</em>: 
+									Garbled RAM (GRAM) schemes transform a pair of RAM program and input into an unintelligent garbling so that any adversary may evaluate the garbling and obtain the correct output but nothing else (about the program or the input). The goal of GRAM is to minimize the evaluation time (that is, without converting the program into huge circuits).
+									</p>
+									<p><em>Result</em>: 
+									We construct a better and more practical GRAM scheme. It achieves $\widetilde O(\log n)$ blowup in garbling and evaluation time, where $n$ is the memory size of the RAM program, and $\widetilde O$ hides $poly \log\log n$ and the security parameter.
+									</p>
+								</div>
 							</article>
 							<article class="work-item">
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
@@ -401,13 +404,14 @@ a.pub-btn{
 								")'>Bibtex</a>]
 								<a class="pub-btn" onclick="toggle_tldr(this)">[ + ]</a>
 								</p>
-								<p class="pub-tldr">
-								<em>Problem</em>: 
-								Oblivious RAM (ORAM) schemes transform any RAM program into a functionally equivalent one such that its accesses locations in the memory are unintelligible. ORAMs are capable of hiding the accesses in outsourced storage or in secure multi-party protocols. The main open problem is the overhead of ORMAs, that is, the per-access cost for the desired security.
-								<br>
-								<em>Result</em>: 
-								We construct the first optimal ORAM scheme, OptORAMa, such that takes $O(\log n)$ overhead, where $n$ is the size of the memory. This result matches the lower bounds of $\Omega(\log n)$ and closed the problem of ORAM, which was initiated by Goldreich and Ostrovsky since 1987.
-								</p>
+								<div class="pub-tldr">
+									<p><em>Problem</em>: 
+									Oblivious RAM (ORAM) schemes transform any RAM program into a functionally equivalent one such that its accesses locations in the memory are unintelligible. ORAMs are capable of hiding the accesses in outsourced storage or in secure multi-party protocols. The main open problem is the overhead of ORMAs, that is, the per-access cost for the desired security.
+									</p>
+									<p><em>Result</em>: 
+									We construct the first optimal ORAM scheme, OptORAMa, such that takes $O(\log n)$ overhead, where $n$ is the size of the memory. This result matches the lower bounds of $\Omega(\log n)$ and closed the problem of ORAM, which was initiated by Goldreich and Ostrovsky since 1987.
+									</p>
+								</div>
 							</article>
 							<article class="work-item">
 								<!-- <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a> -->
