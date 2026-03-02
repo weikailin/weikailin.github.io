@@ -35,8 +35,8 @@ exclude:
 gems:                [jekyll-paginate]
 
 # Site Settings
-title:                Weikai's Blog
-tagline:              "looking for impractical stuff?"
+title:                Wei-Kai's Blog
+tagline:              "" # Currently empty blog
 permalink:            none
 description:          "this is description"
 baseurl:            #"/"
@@ -44,8 +44,8 @@ url:                #"https://lenpaul.github.io"
 github:
   url:                "https://weikailin.github.io"
 author:
-  name:               "Weikai Lin"
-  email:              "wklin@cs.cornell.edu"
+  name:               "Wei-Kai Lin"
+  email:              "wklin@virginia.edu"
   # twitter:           "paululele"
   # instagram:         "paululele"
   github:             "weikailin"
